@@ -18,8 +18,8 @@ Specification | Input | Output
 ------------- | ----- | ------
 The system will allow for users to select pizza toppings | |
 The system will allow for users to select pizza size | |
-Have a pizza object constructor | |
-Have a prototype method for determining pizza price | |
+Pizza object constructor creates new instance | var newPizza = new Pizza(); | newPizza {...}
+Determine pizza price using prototype | newPizza.getTotalPrice| result --> $...
 
 ### Stretch Goals
 
