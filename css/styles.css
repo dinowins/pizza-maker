@@ -22,6 +22,7 @@ h3 {
 }
 
 .jumbotron {
+  background-image: url("..img/pizza1.jpg");
   background-color: #ccb9bc;
 }
 
