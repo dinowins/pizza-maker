@@ -8,6 +8,60 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>My Brother's Pizza</h1>
+      </div>
 
+      <form id="pizza-maker">
+
+        <h3>Choose your pizza's size:</h3>
+        <select class="form-control" id="pizza-size">
+          <option value="1">Small</option>
+          <option value="2">Medium</option>
+          <option value="3">Large</option>
+          <option value="4">Extra-Large</option>
+        </select>
+
+        <h3>Choose your proteins:</h3>
+        <input type="checkbox" name="proteins" value="pepperoni"> Pepperoni<br>
+        <input type="checkbox" name="proteins" value="sausage"> Sausage<br>
+        <input type="checkbox" name="proteins" value="bacon"> Bacon<br>
+        <input type="checkbox" name="proteins" value="chicken"> Chicken<br>
+        <input type="checkbox" name="proteins" value="ham"> Ham<br>
+        <input type="checkbox" name="proteins" value="meatball"> Meatballs<br>
+
+        <h3>Choose your vegetables and greens:</h3>
+        <input type="checkbox" name="vegetables" value="spinach"> Spinach<br>
+        <input type="checkbox" name="vegetables" value="onion"> Red Onion<br>
+        <input type="checkbox" name="vegetables" value="mushroom"> Mushroom<br>
+        <input type="checkbox" name="vegetables" value="olive"> Olives<br>
+        <input type="checkbox" name="vegetables" value="garlic"> Garlic<br>
+        <input type="checkbox" name="vegetables" value="jalapeno"> Jalapenos<br>
+        <input type="checkbox" name="vegetables" value="basil"> Basil<br>
+
+        <h3>Choose your cheese:</h3>
+        <input type="checkbox" name="cheese" value="parmesan"> Parmesan<br>
+        <input type="checkbox" name="cheese" value="mozzarella"> Mozzarella<br>
+        <input type="checkbox" name="cheese" value="provolone"> Provolone<br>
+        <input type="checkbox" name="cheese" value="feta"> Feta<br>
+        <input type="checkbox" name="cheese" value="muenster"> Muenster<br>
+
+        <h3>Choose your sauce:</h3>
+        <input type="checkbox" name="sauce" value="red-sauce"> Red sauce<br>
+        <input type="checkbox" name="sauce" value="white-sauce"> White sauce<br>
+        <input type="checkbox" name="sauce" value="pesto"> Pesto<br>
+
+        <h3>Choose your dough:</h3>
+        <input type="checkbox" name="dough" value="thin-crust"> Thin Crust<br>
+        <input type="checkbox" name="dough" value="regular"> Regular<br>
+        <input type="checkbox" name="dough" value="gluten-free"> Gluten-free<br>
+
+        <button class="btn btn-primary" type="submit">Submit your pizza order!</button>
+      </form>
+
+      <p id="pizza-price-display">Your pizza will cost: <span id="pizza-price"></span></p>
+
+    </div>
   </body>
 </html>
