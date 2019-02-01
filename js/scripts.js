@@ -1,6 +1,6 @@
 // business logic
 function Pizza() {
-  this.size = ""; //3 5 7 9
+  this.size = ""; //$2 for small $4 for medium $6 for large $8 for x-large
   this.proteins = []; //$2 each
   this.vegetables = []; //$1 each
   this.cheese = []; //$1 each
@@ -11,13 +11,13 @@ function Pizza() {
 
 Pizza.prototype.getPriceForSize = function() {
   if (this.size === "Small") {
-    this.price += 3;
+    this.price += 2;
   } else if (this.size === "Medium") {
-    this.price += 5;
+    this.price += 4;
   } else if (this.size === "Large") {
-    this.price += 7;
+    this.price += 6;
   } else if (this.size === "Extra-Large") {
-    this.price += 9;
+    this.price += 8;
   }
 }
 
