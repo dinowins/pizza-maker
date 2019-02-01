@@ -46,9 +46,9 @@ Pizza.prototype.getTotalPrice = function() {
 // user interface
 $(function() {
 
-  var newPizza = new Pizza();
 
   $("#pizza-maker").submit(function(event){
+    var newPizza = new Pizza();
     var pizzaSize = $("#pizza-size").val();
     var dough = $("#pizza-dough").val();
     var proteins = $("input:checkbox[name=proteins]:checked");

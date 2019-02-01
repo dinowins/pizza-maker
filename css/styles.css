@@ -10,3 +10,8 @@ h1 {
   width: 30%;
   margin-top: 20px;
 }
+
+#pizza-price-display {
+  font-size: 30px;
+  margin-top: 50px; 
+}
