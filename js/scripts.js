@@ -40,7 +40,7 @@ Pizza.prototype.getPriceForToppings = function() {
 }
 
 Pizza.prototype.getTotalPrice = function() {
-  return this.price;
+  return "$ " + this.price.toFixed(2);
 }
 
 // user interface
@@ -69,7 +69,10 @@ $(function() {
       newPizza.sauce.push($(this).val());
     });
     newPizza.dough = dough;
-    console.log(newPizza);
+    newPizza.getPriceForSize();
+    newPizza.getPriceForToppings();
+    $("#pizza-price").text(newPizza.getTotalPrice());
+    console.log(newPizza.price);
     event.preventDefault();
   });
 });
