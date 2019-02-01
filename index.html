@@ -53,9 +53,11 @@
         <input type="checkbox" name="sauce" value="pesto"> Pesto<br>
 
         <h3>Choose your dough:</h3>
-        <input type="checkbox" name="dough" value="thin-crust"> Thin Crust<br>
-        <input type="checkbox" name="dough" value="regular"> Regular<br>
-        <input type="checkbox" name="dough" value="gluten-free"> Gluten-free<br>
+        <select class="form-control" id="pizza-dough">
+          <option value="thin-crust">Thin Crust</option>
+          <option value="regular">Regular</option>
+          <option value="gluten-free">Gluten-free</option>
+        </select>
 
         <button class="btn btn-primary" type="submit">Submit your pizza order!</button>
       </form>
