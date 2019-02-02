@@ -1,6 +1,15 @@
-body {
+/* body {
   background-color: #ffebee
+} */
+
+body, html {
+  background-image: url("../img/pizza3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
+
 
 h1 {
   text-align: center;
@@ -9,6 +18,11 @@ h1 {
 
 h3 {
   font-family: 'Rubik', serif;
+  color: #ffe082;
+}
+
+label {
+  color: white;
 }
 
 .btn {
@@ -22,8 +36,8 @@ h3 {
 }
 
 .jumbotron {
-  background-image: url("..img/pizza1.jpg");
-  background-color: #ccb9bc;
+  /* background-image: url(../img/pizza1.jpg); */
+  background-color: rgb(204, 185, 188, .55);
 }
 
 #pizza-price-display {
@@ -31,4 +45,11 @@ h3 {
   font-weight: 600;
   font-size: 30px;
   margin-top: 5px;
+  font-size: 40px;
+  color: #ffb300;
+}
+
+#pizza-image {
+  max-width: 200px;
+  max-height: 200px;
 }
