@@ -1,4 +1,4 @@
-# Pig Maker
+# Pizza Maker
 
 #### Object Oriented Programming for Epicodus - 02/01/2019
 
